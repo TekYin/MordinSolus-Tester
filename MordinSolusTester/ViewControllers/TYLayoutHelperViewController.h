@@ -10,7 +10,9 @@
 
 @interface TYLayoutHelperViewController : UIViewController
 
-@property(weak, nonatomic) IBOutlet UIView *uContainer;
+@property(weak, nonatomic) IBOutlet UIScrollView *uContainer;
+
+@property(nonatomic, strong) NSMutableArray *viewCollection;
 
 - (IBAction)doAddMember:(id)sender;
 
