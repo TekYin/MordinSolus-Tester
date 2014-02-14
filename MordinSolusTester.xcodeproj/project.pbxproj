@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		55A4300AD3AF552AB7717294 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 55A43ED7C40F1E32B4B660B0 /* README.md */; };
+		55A430736C4EBA06E2D0FBBE /* UIImage+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A436A1B4DF777E237A0959 /* UIImage+Tools.m */; };
+		55A4307C98206DFE591B2716 /* UIView+position.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A437F5ED533B3F31A9CA81 /* UIView+position.m */; };
 		55A43172EBF9E61B8E3EB2FE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 55A43E289B3EA2894FC692F7 /* README.md */; };
 		55A431813B9DBA95C89A161E /* ASIS3ObjectRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A436E15DCE0F5A6338989B /* ASIS3ObjectRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		55A431C0B2B4796D5BAC04A0 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A43B900A987B0CFAC17483 /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		55A432D772791041E1268D04 /* TYMasterTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A43361159468CC42C081C0 /* TYMasterTools.m */; };
 		55A432FACF34B1F134AFB87A /* ASIS3ServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A43F20580E038068DE46F9 /* ASIS3ServiceRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		55A43312804AC0B4B4A6EB8D /* ASICloudFilesContainerXMLParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A438F116EE7F921896799B /* ASICloudFilesContainerXMLParserDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		55A4331369B383B510C672E8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A433BD3CC2F0758B45B337 /* libz.dylib */; };
@@ -35,6 +38,7 @@
 		55A43BE4B5D2D336BC9B6DE8 /* ASIS3Bucket.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A43BD3DA1D979FDCE388EF /* ASIS3Bucket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		55A43BFC716D569C718DE719 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 55A4382DBCD9CCE748ECB204 /* .gitignore */; };
 		55A43C3784DD9268614F400C /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A43A53A146C8DA264E9238 /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		55A43C7B8878577738671231 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 55A435C4E558020F3B243689 /* README.md */; };
 		55A43E4E7E274ACC9E60549D /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A43FD174DEC4B7B8E88964 /* UIImage+RoundedCorner.m */; };
 		55A43E62A74FD8944F3F6950 /* ASIS3BucketRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A439545E5F7D381475B0D4 /* ASIS3BucketRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		55A43E6C6CE0A1C2DC44DE59 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A4364E6432DBD138ADAEF6 /* ImageIO.framework */; };
@@ -49,7 +53,6 @@
 		9B4E739218A2077F004045F4 /* LASqlBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4E738D18A2077F004045F4 /* LASqlBase.m */; };
 		9B4E739618A207BC004045F4 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4E739518A207BC004045F4 /* libsqlite3.0.dylib */; };
 		9B4E739818A207C7004045F4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4E739718A207C7004045F4 /* libsqlite3.dylib */; };
-		9B4E739C18A22AAA004045F4 /* UIBufferedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4E739B18A22AAA004045F4 /* UIBufferedImageView.m */; };
 		9B4E739F18A23DA1004045F4 /* TYOnlineImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4E739E18A23DA1004045F4 /* TYOnlineImageViewController.m */; };
 		9B6211E4189FA6EC00208DFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6211E3189FA6EC00208DFF /* UIKit.framework */; };
 		9B6211E6189FA6EC00208DFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6211E5189FA6EC00208DFF /* Foundation.framework */; };
@@ -72,6 +75,7 @@
 		55A431B490A3DEBE2BADD3B4 /* CGBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBorder.h; sourceTree = "<group>"; };
 		55A431B5BD532F3DCEA914C0 /* ASIS3Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIS3Request.h; sourceTree = "<group>"; };
 		55A431C148801E8521B42E0E /* TYLayoutItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLayoutItem.m; sourceTree = "<group>"; };
+		55A431FC9E5F2A9750108C9F /* TYMasterTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYMasterTools.h; sourceTree = "<group>"; };
 		55A43212096101D5D3EA4E48 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		55A432153D0D51B379B8089B /* ASICloudFilesObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASICloudFilesObject.m; sourceTree = "<group>"; };
 		55A432446127BC45CED91081 /* TYOnlineImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYOnlineImageView.m; sourceTree = "<group>"; };
@@ -82,6 +86,7 @@
 		55A4333E09C0F08F713B1013 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
 		55A43344CB9D25DA0B5E15BC /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		55A43349B235AD94256C5A2F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		55A43361159468CC42C081C0 /* TYMasterTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYMasterTools.m; sourceTree = "<group>"; };
 		55A433B2DD72BB857EC5AC9E /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
 		55A433BD3CC2F0758B45B337 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		55A434077E71DA08939F72C0 /* ASICloudFilesRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASICloudFilesRequest.m; sourceTree = "<group>"; };
@@ -95,12 +100,16 @@
 		55A43588B88AA71129C54AEF /* TYLayoutHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLayoutHelper.m; sourceTree = "<group>"; };
 		55A4358BAAFC95D0C01436F5 /* ASIS3Bucket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIS3Bucket.h; sourceTree = "<group>"; };
 		55A43593D031321A4A71903A /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		55A435C4E558020F3B243689 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = "<group>"; };
 		55A4364E6432DBD138ADAEF6 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		55A4366950C57CCC445EAD0D /* ASIS3BucketRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIS3BucketRequest.h; sourceTree = "<group>"; };
+		55A436738B8245C7F755C631 /* UIView+position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+position.h"; sourceTree = "<group>"; };
+		55A436A1B4DF777E237A0959 /* UIImage+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tools.m"; sourceTree = "<group>"; };
 		55A436CA294C5BEFF73FA3AC /* ASIS3ServiceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIS3ServiceRequest.h; sourceTree = "<group>"; };
 		55A436D1D8F7AB7DDBD23DFA /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
 		55A436E15DCE0F5A6338989B /* ASIS3ObjectRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIS3ObjectRequest.m; sourceTree = "<group>"; };
 		55A437ACA3A853FBAA8657CF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		55A437F5ED533B3F31A9CA81 /* UIView+position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+position.m"; sourceTree = "<group>"; };
 		55A4380682758A54FA0048E2 /* ASINSXMLParserCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINSXMLParserCompat.h; sourceTree = "<group>"; };
 		55A4382DBCD9CCE748ECB204 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		55A43891183A275A8747BADC /* ASICloudFilesObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICloudFilesObject.h; sourceTree = "<group>"; };
@@ -127,6 +136,7 @@
 		55A43CF3213955E3DBD67DAC /* ASICloudFilesContainerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASICloudFilesContainerRequest.m; sourceTree = "<group>"; };
 		55A43D575ACB3F113E1FE06A /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
 		55A43D67D26C68BBD7E69610 /* ASICloudFilesObjectRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICloudFilesObjectRequest.h; sourceTree = "<group>"; };
+		55A43D7C1941300EB8062FAD /* UIImage+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tools.h"; sourceTree = "<group>"; };
 		55A43E289B3EA2894FC692F7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = "<group>"; };
 		55A43ED7C40F1E32B4B660B0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = "<group>"; };
 		55A43F20580E038068DE46F9 /* ASIS3ServiceRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIS3ServiceRequest.m; sourceTree = "<group>"; };
@@ -142,8 +152,6 @@
 		9B4E738D18A2077F004045F4 /* LASqlBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LASqlBase.m; sourceTree = "<group>"; };
 		9B4E739518A207BC004045F4 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		9B4E739718A207C7004045F4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		9B4E739A18A22AAA004045F4 /* UIBufferedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBufferedImageView.h; sourceTree = "<group>"; };
-		9B4E739B18A22AAA004045F4 /* UIBufferedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBufferedImageView.m; sourceTree = "<group>"; };
 		9B4E739D18A23DA1004045F4 /* TYOnlineImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYOnlineImageViewController.h; sourceTree = "<group>"; };
 		9B4E739E18A23DA1004045F4 /* TYOnlineImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYOnlineImageViewController.m; sourceTree = "<group>"; };
 		9B6211E0189FA6EC00208DFF /* MordinSolusTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MordinSolusTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,13 +192,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		55A43120543CF2523C329CA5 /* UIOnlineImageView */ = {
+		55A43120543CF2523C329CA5 /* TYOnlineImageView */ = {
 			isa = PBXGroup;
 			children = (
 				55A43556BE3DBE9DEB1ECCEC /* TYOnlineImageView.h */,
 				55A432446127BC45CED91081 /* TYOnlineImageView.m */,
+				55A435C4E558020F3B243689 /* README.md */,
 			);
-			path = UIOnlineImageView;
+			path = TYOnlineImageView;
 			sourceTree = "<group>";
 		};
 		55A435A921AC0E261723D72E /* libs */ = {
@@ -211,6 +220,8 @@
 				55A43FC4C9A7D14111D033D6 /* helper */,
 				55A43709DE1FB6CC64CF1003 /* view */,
 				55A438AAAB67D83A3EF4B43F /* categories */,
+				55A43361159468CC42C081C0 /* TYMasterTools.m */,
+				55A431FC9E5F2A9750108C9F /* TYMasterTools.h */,
 			);
 			name = MordinSolus;
 			path = ../../../../MordinSolus;
@@ -225,6 +236,8 @@
 				55A43212096101D5D3EA4E48 /* UIImage+Resize.m */,
 				55A432CBB8A88D591C5E9F47 /* UIImage+RoundedCorner.h */,
 				55A43FD174DEC4B7B8E88964 /* UIImage+RoundedCorner.m */,
+				55A436A1B4DF777E237A0959 /* UIImage+Tools.m */,
+				55A43D7C1941300EB8062FAD /* UIImage+Tools.h */,
 			);
 			path = ImagePlus;
 			sourceTree = "<group>";
@@ -232,8 +245,7 @@
 		55A43709DE1FB6CC64CF1003 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				9B4E739918A22AAA004045F4 /* UIBufferedImageView */,
-				55A43120543CF2523C329CA5 /* UIOnlineImageView */,
+				55A43120543CF2523C329CA5 /* TYOnlineImageView */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -242,6 +254,8 @@
 			isa = PBXGroup;
 			children = (
 				55A436A38F4E039696158ACA /* ImagePlus */,
+				55A437F5ED533B3F31A9CA81 /* UIView+position.m */,
+				55A436738B8245C7F755C631 /* UIView+position.h */,
 			);
 			path = categories;
 			sourceTree = "<group>";
@@ -358,15 +372,6 @@
 				9B4E738D18A2077F004045F4 /* LASqlBase.m */,
 			);
 			path = SQLiteHelper;
-			sourceTree = "<group>";
-		};
-		9B4E739918A22AAA004045F4 /* UIBufferedImageView */ = {
-			isa = PBXGroup;
-			children = (
-				9B4E739A18A22AAA004045F4 /* UIBufferedImageView.h */,
-				9B4E739B18A22AAA004045F4 /* UIBufferedImageView.m */,
-			);
-			path = UIBufferedImageView;
 			sourceTree = "<group>";
 		};
 		9B6211D7189FA6EC00208DFF = {
@@ -491,6 +496,7 @@
 				55A4300AD3AF552AB7717294 /* README.md in Resources */,
 				55A43BFC716D569C718DE719 /* .gitignore in Resources */,
 				55A43172EBF9E61B8E3EB2FE /* README.md in Resources */,
+				55A43C7B8878577738671231 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,7 +513,6 @@
 				55A4354893F6720174921EC6 /* TYLayoutHelper.m in Sources */,
 				55A43775933747354EFCFB62 /* TYLayoutItem.m in Sources */,
 				9B4E739218A2077F004045F4 /* LASqlBase.m in Sources */,
-				9B4E739C18A22AAA004045F4 /* UIBufferedImageView.m in Sources */,
 				55A4341B9F22A1835A0CB352 /* TYOnlineImageView.m in Sources */,
 				55A43BE4B5D2D336BC9B6DE8 /* ASIS3Bucket.m in Sources */,
 				55A435D3B74C7FCFA6FCBB3C /* ASIS3Request.m in Sources */,
@@ -535,6 +540,9 @@
 				55A4399E807D21D17294632C /* UIImage+Resize.m in Sources */,
 				55A43E4E7E274ACC9E60549D /* UIImage+RoundedCorner.m in Sources */,
 				9B4E739F18A23DA1004045F4 /* TYOnlineImageViewController.m in Sources */,
+				55A432D772791041E1268D04 /* TYMasterTools.m in Sources */,
+				55A430736C4EBA06E2D0FBBE /* UIImage+Tools.m in Sources */,
+				55A4307C98206DFE591B2716 /* UIView+position.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

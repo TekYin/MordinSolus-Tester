@@ -11,4 +11,8 @@
 @interface TYOnlineImageViewController : UIViewController
 - (IBAction)doLoadImages:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UIButton *uBtnFitFrame;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *uHAlign;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *uVAlign;
+- (IBAction)doChangeFitFrame:(id)sender;
 @end
